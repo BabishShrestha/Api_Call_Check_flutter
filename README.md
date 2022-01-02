@@ -1,16 +1,7 @@
 # api_fetch
 
-A new Flutter project.
+A new Flutter project that demonstrates api calling and displays them in a scrollable list.![Screenshot_1641149962](https://user-images.githubusercontent.com/35884235/147886602-c2406bb5-1101-460a-9bbe-88a8c9c62d12.png)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/35884235/147886722-91ba4e31-52a3-40ca-b9b3-3b82518b4acd.mp4
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
