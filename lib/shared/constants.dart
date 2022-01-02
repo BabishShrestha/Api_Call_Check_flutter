@@ -1,4 +1,4 @@
 import 'package:flutter/material.dart';
 
-final kAppBarColorbg = Colors.yellow;
-final kAppBarColorfg = Colors.black;
+const kAppBarColorbg = Colors.yellow;
+const kAppBarColorfg = Colors.black;

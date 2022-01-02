@@ -2,7 +2,13 @@ import 'dart:core';
 
 import 'package:api_fetch/shared/constants.dart';
 import 'package:api_fetch/widgets/apicheck.dart';
-import 'package:flutter/materiaelessWidget {
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const ApiCall());
+}
+
+class ApiCall extends StatelessWidget {
   const ApiCall({Key? key}) : super(key: key);
 
   @override
@@ -13,9 +19,9 @@ import 'package:flutter/materiaelessWidget {
         appBar: AppBar(
           backgroundColor: kAppBarColorbg,
           foregroundColor: kAppBarColorfg,
-          title: Text('Api Call Check'),
+          title: const Text('Api Call Check'),
         ),
-        body: SafeArea(
+        body: const SafeArea(
           child: ApiCheck(),
         ),
       ),
