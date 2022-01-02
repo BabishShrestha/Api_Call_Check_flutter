@@ -5,23 +5,25 @@ import '../shared/constants.dart';
 import '../shared/fetchapi.dart';
 
 class ApiCheck extends StatelessWidget {
+  const ApiCheck({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      margin: EdgeInsets.all(20),
+      margin: const EdgeInsets.all(20),
       child: Column(
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: const [
               Text("id"),
               Text("Title"),
               Text("Status"),
             ],
           ),
-          SizedBox(
+          const SizedBox(
             height: 10,
           ),
           Expanded(
